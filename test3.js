@@ -7,7 +7,7 @@ function getPrimes(num) {
   const primes = [];
   let primeDivisors = []
 
-  for ( let i = 2; i<=max; i++){
+  for ( let i = 2; i<= max; i++){
     if (!redundant[i]) {
       primes.push(i);
       for (let j = i * 2; j <= max; j+=i) {
