@@ -1,7 +1,6 @@
 // Выписав первые шесть простых чисел, получим 2, 3, 5, 7, 11 и 13. Очевидно, что 6-е простое число - 13.
 // Какое число является 10001-м простым числом?
 
-console.time();
 function isSimple(num) {
   let isRemainder;
   for (let j = 2; j < num; j++) {
@@ -27,4 +26,3 @@ function findSimple(){
 };
 
 console.log(findSimple());
-console.timeEnd();
