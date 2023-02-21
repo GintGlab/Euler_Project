@@ -1,3 +1,4 @@
+// сложность O(N log N)
 const arr = [1, 140, 10, 15, 88, 92, 540, 44, 23, 23, 4, 0 , 1]
 
 const mergeSortedArrays = (arr1, arr2) => {
