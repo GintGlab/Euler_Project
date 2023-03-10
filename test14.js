@@ -37,7 +37,8 @@
       numWithBigLength = i;
     }
   }
-  console.log(maxSubLength, numWithBigLength)
+  console.log(maxSubLength,numWithBigLength);
   console.timeEnd()
+  return {maxSubLength, numWithBigLength}
 })()
 
